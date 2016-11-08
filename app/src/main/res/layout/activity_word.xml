@@ -52,4 +52,5 @@
         android:id="@+id/TextViewWordCounter"
         android:layout_above="@+id/ok"
         android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
