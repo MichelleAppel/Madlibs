@@ -16,11 +16,13 @@
         android:text="@string/welcome_message"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="17dp"
         android:id="@+id/textViewWelcome"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:padding="22dp" />
+        android:padding="22dp"
+        android:layout_toRightOf="@+id/imageViewMadlibs"
+        android:layout_toEndOf="@+id/imageViewMadlibs"
+        android:layout_alignTop="@+id/imageViewMadlibs" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -43,6 +45,7 @@
         android:layout_toRightOf="@+id/imageViewMadlibs"
         android:layout_toEndOf="@+id/imageViewMadlibs"
         android:layout_marginLeft="77dp"
-        android:layout_marginStart="77dp" />
+        android:layout_marginStart="77dp"
+        style="@style/Widget.AppCompat.Button.Colored" />
 
 </RelativeLayout>

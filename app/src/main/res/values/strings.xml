@@ -4,4 +4,6 @@
     <string name="get_started">Get started</string>
     <string name="mad_libs_image">Mad libs image</string>
     <string name="Task_message">Fill in the words to complete the story!</string>
+    <string name="play_again">Play again!</string>
+    <string name="your_madlib_story">Your Madlib story!</string>
 </resources>
